@@ -1,0 +1,47 @@
+* {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    padding: 14px 16px;
+
+}
+
+ul {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    display: flex;
+    align-items: center;
+    
+}
+
+li a {
+    color: #e5e7eb;
+    size: 18px;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.header-logo {
+    float: left;
+    padding: 14px 16px;
+    font-size: 24px;
+    color: #F9FAF8;
+    
+}
