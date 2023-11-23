@@ -1,32 +1,32 @@
 * {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
+
 }
+
 
 .header {
     background-color: #1f2937;
-    color: #F9FAF8;
     padding: 14px 16px;
-
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+ 
 }
-
+  
 ul {
-    text-decoration: none;
+    display: flex;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    
-    
-}
-
-li {
+    gap: 16px;
     text-decoration: none;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    float: right;
+}
+  
+.left, .right {
     display: flex;
     align-items: center;
-    
+    gap: 16px;
 }
 
 li a {
@@ -34,14 +34,30 @@ li a {
     size: 18px;
     padding: 14px 16px;
     text-align: center;
-    text-decoration: none;
-    
+    text-decoration: none; 
 }
 
-.header-logo {
-    float: left;
-    padding: 14px 16px;
+.logo {
     font-size: 24px;
+    font-weight: bold;
     color: #F9FAF8;
-    
+}
+
+.hero {
+
+    color: #F9FAF8;
+    display: flex;
+    background-color: #1f2937;
+    padding: 14px 16px;
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    flex-direction: column;
+
+}
+
+.herotext {
+    font-size: 48px;
+    font-weight: 900;
+    display: flex;
 }
